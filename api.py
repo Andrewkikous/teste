@@ -185,5 +185,5 @@ def update_webhooks():
 if __name__ == '__main__':
     check_token()
     update_webhooks()
-    app.run(host='0.0.0.0', port=5000)
+
 
