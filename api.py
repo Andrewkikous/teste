@@ -167,7 +167,7 @@ def webhook_listener():
 def update_webhooks():
     url = "https://www.plugchat.com.br/api/integrations/update-webhooks"
     headers = {
-        "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdhbml6YXRpb25JZCI6IjJmZTdkZjU4LWE5N2ItNGM2Yi1hN2ZjLTk2MjUyMzE1ZTY4MyIsImlhdCI6MTY5NDQzMzU4NCwiZXhwIjo0ODQ4NDMzNTg0fQ.geZtRnwMZ0mYn0IQV7i_KrKsyHsB3ga_T6H4LV-G55Q",
+        "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdhbml6YXRpb25JZCI6IjE2NmJhODM3LThiNTctNDkwYy1hZDFiLWEwZGFmZWI5ZGFiNyIsImlhdCI6MTY5NTA0MzE5NSwiZXhwIjo0ODQ5MDQzMTk1fQ.XTOGVenB6bUcEda7UhXQB10ELpC8suRcTBzSxVrkrU4",
         "Content-Type": "application/json"
     }
     data = {
