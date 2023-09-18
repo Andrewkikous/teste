@@ -171,8 +171,8 @@ def update_webhooks():
         "Content-Type": "application/json"
     }
     data = {
-        "finishAttendance": "http://atendimento.atendimento",
-        "startAttendance": "http://atendimento.atendimento",
+        "finishAttendance": "https://testinho.onrender.com",
+        "startAttendance": "https://testinho.onrender.com",
     }
     response = requests.put(url, headers=headers, json=data)
 
